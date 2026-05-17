@@ -76,15 +76,14 @@ export const sidebarItems: NavGroup[] = [
       },
       {
         title: "E-commerce",
-        url: "/dashboard/coming-soon",
+        url: "/dashboard/ecommerce",
         icon: ShoppingBag,
-        comingSoon: true,
       },
       {
         title: "Academy",
-        url: "/dashboard/coming-soon",
+        url: "/dashboard/academy",
         icon: GraduationCap,
-        comingSoon: true,
+        isNew: true,
       },
       {
         title: "Logistics",
@@ -100,9 +99,8 @@ export const sidebarItems: NavGroup[] = [
     items: [
       {
         title: "Email",
-        url: "/dashboard/coming-soon",
+        url: "/dashboard/mail",
         icon: Mail,
-        comingSoon: true,
       },
       {
         title: "Chat",
