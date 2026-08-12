@@ -10,9 +10,13 @@ Most admin templates I found, free or paid, felt cluttered, outdated, or too rig
 
 > [!NOTE]
 > Looking for the Base UI version? Check out [next-shadcn-admin-dashboard-baseui](https://github.com/arhamkhnz/next-shadcn-admin-dashboard-baseui).
+>
+> Looking for the React Aria version? Check out [arhamkhnz/next-shadcn-admin-dashboard-aria](https://github.com/arhamkhnz/next-shadcn-admin-dashboard-aria).
+>
+> Looking for the TanStack Start version? Check out [tanstack-shadcn-admin-dashboard](https://github.com/arhamkhnz/tanstack-shadcn-admin-dashboard).
 
 > [!TIP]
-> I’m also working on Nuxt.js, Svelte, and React (Vite + TanStack Router) versions of this dashboard. They’ll be live soon.
+> I’m also working on Nuxt.js and Svelte versions of this dashboard. They’ll be live soon.
 
 ## Features
 
@@ -61,18 +65,24 @@ Most admin templates I found, free or paid, felt cluttered, outdated, or too rig
 - Productivity Dashboard  
 - E-commerce Dashboard  
 - Academy Dashboard  
+- Logistics Dashboard  
+- Infrastructure Dashboard  
+- File Manager  
+- Patient Monitoring  
+- Chat Page  
 - Email Page  
+- Profile  
+- Users Management  
+- Roles Management  
+- Kanban Board  
+- Tasks Page  
+- Invoice Page  
+- Calendar Page  
 - Authentication (4 screens)  
 - Legacy: Default v1, CRM v1, Finance v1, Analytics v1
 
-### Coming Soon
-- Logistics Dashboard  
-- Chat Page  
-- Calendar Page  
-- Kanban Board  
-- Invoice Page  
-- Users Management  
-- Roles Management  
+### Planned
+I’ve added all the planned screens. Feel free to open an issue for requesting something specific.
 
 ## Colocation File System Architecture
 

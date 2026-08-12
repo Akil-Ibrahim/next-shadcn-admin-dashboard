@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 
 import { Toaster } from "@/components/ui/sonner";
@@ -38,17 +39,13 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       </head>
       <body className={`${fontVars} min-h-screen antialiased`}>
         <TooltipProvider>
-          <PreferencesStoreProvider
-            themeMode={theme_mode}
-            themePreset={theme_preset}
-            contentLayout={content_layout}
-            navbarStyle={navbar_style}
-            font={font}
-          >
+          <PreferencesStoreProvider initialValues={PREFERENCE_DEFAULTS}>
             {children}
             <Toaster />
           </PreferencesStoreProvider>
         </TooltipProvider>
+        {/* Used for this project's hosted demo. Feel free to remove it; it is not required for template functionality. */}
+        <Analytics />
       </body>
     </html>
   );
